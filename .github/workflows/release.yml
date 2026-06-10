@@ -114,4 +114,6 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          REGISTRY_USERNAME: ${{ github.actor }}
+          REGISTRY_PASSWORD: ${{ github.token }}
         run: npx semantic-release
