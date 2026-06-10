@@ -3,4 +3,4 @@ node_modules
 build
 *.class
 *.jar
-!.gradle-wrapper.jar
+!gradle-wrapper.jar
